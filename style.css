@@ -72,6 +72,7 @@
 @media screen and (max-width: 1200px) {
     .column {
         width: 100%;
+        margin: 0%;
     }
 
     .column p {
@@ -80,6 +81,7 @@
 
     .columnhide {
         width: 100%;
+        margin: 0%;
     }
 
     .columnhide p {
