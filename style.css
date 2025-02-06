@@ -9,14 +9,14 @@
 
 .column {
     float: left;
-    width: 46%;
+    width: 50%;
     height: 600px;
-    margin: 2%
+    margin: 0%
 }
 
 .column p {
     font-size: larger;
-    margin: 0px 100px;
+    margin: 0px 50px;
 }
 
 .column img {
@@ -25,18 +25,19 @@
 
 .columnhide {
     position: absolute;
+    align-content: center;
     background-color: white;
     border-style: solid;
     border-width: 2px;
     opacity: 0;
-    width: 46%;
+    width: 50%;
     height: 600px;
     transition: opacity 0.5s;
 }
 
 .columnhide p {
     font-size: larger;
-    margin: 0px 100px;
+    margin: 0px 50px;
 }
 
 .columnhide img {
@@ -62,7 +63,7 @@
 
 .columnt p {
     font-size: larger;
-    margin: 0px 100px;
+    margin: 0px 50px;
 }
 
 .columnt img {
@@ -76,7 +77,7 @@
     }
 
     .column p {
-        margin: 0px 50px;
+        margin: 0px 25px;
     }
 
     .columnhide {
@@ -85,7 +86,7 @@
     }
 
     .columnhide p {
-        margin: 0px 50px;
+        margin: 0px 25px;
     }
 
     .columnt {
@@ -93,7 +94,7 @@
     }
 
     .columnt p {
-        margin: 0px 50px;
+        margin: 0px 25px;
     }
 }
 
