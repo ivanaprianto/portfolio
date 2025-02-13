@@ -7,11 +7,15 @@
     height: 100%;
 }
 
+.single img {
+    max-width: 256px;
+}
+
 .column {
     float: left;
-    width: 50%;
+    width: 48%;
     height: 600px;
-    margin: 0%
+    margin: 1%
 }
 
 .column p {
@@ -30,7 +34,7 @@
     border-style: solid;
     border-width: 2px;
     opacity: 0;
-    width: 50%;
+    width: 48%;
     height: 600px;
     transition: opacity 0.5s;
 }
@@ -87,6 +91,7 @@
 
     .columnhide p {
         margin: 0px 25px;
+        font-size: small;
     }
 
     .columnt {
